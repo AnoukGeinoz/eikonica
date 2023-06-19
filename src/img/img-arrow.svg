@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="24px" viewBox="0 0 29 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fleche</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="maquette" transform="translate(-472.000000, -2328.000000)" fill="#3408D1">
+            <g id="evenements" transform="translate(165.000000, 1728.000000)">
+                <g id="card-1" transform="translate(0.000000, 149.000000)">
+                    <polygon id="fleche" transform="translate(321.299805, 463.000000) scale(-1, 1) translate(-321.299805, -463.000000) " points="335.5 461.482425 313.025391 461.482425 321.15527 453.316405 318.98731 451.112305 307.09961 462.999995 318.98731 474.887695 321.15527 472.719726 313.025391 464.553715 335.5 464.553715"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
