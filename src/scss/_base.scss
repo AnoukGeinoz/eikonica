@@ -3,6 +3,8 @@
 // ==================================== */
 
 :root {
+  --white: #ffffff;
+  --blue: #3408d1;
 }
 
 /* ====================================
@@ -27,6 +29,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  // background-image: url(../img/img-background.webp);
 }
 
 a {
@@ -43,3 +46,12 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  text-align: center;
+  color: var(--blue);
+}
+
+a {
+  text-decoration: none;
+}

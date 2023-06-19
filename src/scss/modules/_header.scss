@@ -1,0 +1,60 @@
+.header-title h1,
+h2 {
+  color: var(--white);
+  font-family: "Clash Display", sans-serif;
+  font-weight: 500;
+  font-size: 53px;
+  letter-spacing: -0.4;
+  line-height: 55px;
+}
+
+.header-title {
+  margin-top: 95px;
+}
+
+.header-title h2 {
+  font-weight: 400;
+  font-size: 55px;
+  letter-spacing: -0.3;
+  margin-top: 15px;
+}
+
+.nav {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33.5px 47.5px;
+  // background-color: aqua;
+}
+
+.nav-languages {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.nav-languages img {
+  margin-right: 80px;
+  margin-bottom: 10px;
+}
+
+.nav-links {
+  text-align: right;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.85px;
+}
+
+.nav-links .first-link {
+  margin-left: 0;
+}
+
+.img-header {
+  margin-top: 90px;
+}
