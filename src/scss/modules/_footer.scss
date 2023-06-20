@@ -11,6 +11,9 @@
   letter-spacing: 1.85px;
   text-align: right;
   margin-bottom: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .contacts a {
@@ -21,12 +24,16 @@
   opacity: 0.7;
 }
 
-.first-link {
-  margin-left: 68%;
-}
-
 .contacts img {
   margin-bottom: 10px;
+  margin-right: 68%;
+}
+
+.contacts .nav-btn-languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
 }
 
 .links {

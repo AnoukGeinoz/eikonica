@@ -9,7 +9,7 @@ h2 {
 }
 
 .header-title {
-  margin-top: 138px;
+  margin-top: 160px;
 }
 
 .header-title h2 {
@@ -18,19 +18,45 @@ h2 {
   letter-spacing: -0.3;
   margin-top: 15px;
 }
+.container-nav {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.container-nav .col-12,
+.container-img-header .col-12 {
+  padding: 0;
+}
+
+.bgColor {
+  background-color: var(--blue);
+  opacity: 0.9;
+}
 
 .nav {
   text-align: left;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  padding: 33.5px 47.5px;
-  // background-color: aqua;
+  align-items: center;
+  padding: 20px 47.5px;
   font-size: 20px;
+  margin: 0;
+}
+
+.nav-btn-languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80px;
 }
 
 .nav-languages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   color: var(--white);
   font-size: 20px;
 }
