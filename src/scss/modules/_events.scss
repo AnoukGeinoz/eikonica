@@ -32,6 +32,11 @@
 .card-content img {
   margin-top: 10%;
   margin-left: 90%;
+  transition: opacity 0.2;
+}
+
+.card-content img:hover {
+  opacity: 0.6;
 }
 
 .events-description {

@@ -19,3 +19,11 @@
 .app img {
   margin-bottom: 23px;
 }
+
+.app a {
+  transition: opacity 0.2s;
+}
+
+.app a:hover {
+  opacity: 0.6;
+}

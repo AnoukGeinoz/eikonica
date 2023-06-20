@@ -9,7 +9,7 @@ h2 {
 }
 
 .header-title {
-  margin-top: 150px;
+  margin-top: 138px;
 }
 
 .header-title h2 {
@@ -35,9 +35,22 @@ h2 {
   font-size: 20px;
 }
 
+.nav-languages a {
+  transition: opacity 0.2;
+}
+
+.nav-languages a:hover {
+  opacity: 0.7;
+}
+
 .nav-languages img {
   margin-right: 80px;
   margin-bottom: 10px;
+  transition: transform 0.2s;
+}
+
+.nav-languages img:hover {
+  transform: scale(1.1);
 }
 
 .nav-links {
@@ -50,6 +63,11 @@ h2 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.85px;
+  transition: opacity 0.2;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
 }
 
 .nav-links .first-link {

@@ -13,6 +13,14 @@
   margin-bottom: 56px;
 }
 
+.contacts a {
+  transition: opacity 0.2s;
+}
+
+.contacts a:hover {
+  opacity: 0.7;
+}
+
 .first-link {
   margin-left: 68%;
 }
@@ -25,7 +33,7 @@
   font-size: 12px;
   letter-spacing: 1.11px;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 25px;
   margin-bottom: 40px;
 }
 
@@ -47,4 +55,33 @@
 
 .social-media img {
   margin-left: 50px;
+  transition: transform 0.2s;
+}
+
+.social-media img:hover {
+  transform: scale(1.2);
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
